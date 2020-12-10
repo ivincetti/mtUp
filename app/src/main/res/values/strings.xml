@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Movavi MeetUp</string>
+    <string name="main_activity_toast_btn_text">Toast</string>
+</resources>
