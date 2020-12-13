@@ -17,6 +17,11 @@ class MeetUpTest : TestCase() {
                     showToastButton.click()
                 }
             }
+            step("Проверить текст в toast") {
+                MainScreen {
+                    toastMessage.hasText(R.string.main_activity_toast_text)
+                }
+            }
         }
     }
 }
