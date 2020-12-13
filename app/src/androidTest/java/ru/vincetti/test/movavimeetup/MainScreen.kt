@@ -10,4 +10,8 @@ object MainScreen : KScreen<MainScreen>() {
     val showToastButton = KButton {
         withId(R.id.main_activity_button)
     }
+
+    val toastMessage = KTextView {
+        withId(R.id.snackbar_text)
+    }
 }
