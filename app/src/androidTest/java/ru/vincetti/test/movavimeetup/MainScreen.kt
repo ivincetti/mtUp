@@ -1,5 +1,7 @@
 package ru.vincetti.test.movavimeetup
 
+import com.agoda.kakao.text.KButton
+import com.agoda.kakao.text.KTextView
 import com.kaspersky.kaspresso.screens.KScreen
 
 object MainScreen : KScreen<MainScreen>() {
