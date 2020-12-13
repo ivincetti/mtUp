@@ -12,6 +12,11 @@ class MeetUpTest : TestCase() {
             step("Запустить приложение") {
                 ActivityScenario.launch(MainActivity::class.java)
             }
+            step("Нажать на кнопку") {
+                MainScreen {
+                    showToastButton.click()
+                }
+            }
         }
     }
 }
